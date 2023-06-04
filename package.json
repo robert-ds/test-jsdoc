@@ -1,0 +1,23 @@
+{
+  "name": "jsdoc-use",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs": "node_modules/.bin/jsdoc --configure .jsdoc.json --verbose"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jsdoc": "^4.0.2",
+    "jsdoc-http-plugin": "^0.3.2",
+    "jsdoc-json": "^2.0.2",
+    "minami": "^1.2.3",
+    "taffydb": "^2.7.3"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
