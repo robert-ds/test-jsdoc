@@ -19,11 +19,24 @@
     "showInheritedInNav": true
   },
   "opts": {
-    "template": "node_modules/minami",
     "encoding": "utf8",
-    "recurse": "true",
-    "destination": "./docs",
+    "readme": "./README.md",
     "tutorials": "./tutorials",
-    "readme": "./README.md"
+    "template": "node_modules/clean-jsdoc-theme",
+    "theme_opts": {
+      "default_theme": "dark",
+      "meta": [
+      {
+        "name": "author",
+        "content": "Robert Vásquez"
+      },
+      {
+        "name": "description",
+        "content": "Best Clean and minimal JSDoc 3 Template/Theme"
+      }
+      ]
+    },
+    "recurse": "true",
+    "destination": "./docs"
   }
 }
